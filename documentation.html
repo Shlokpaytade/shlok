@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FABLAB Documentation</title>
+    <style>
+        /* Global Styles */
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f9f9f9;
+        }
+
+        /* Header Styles */
+        h1 {
+            color: #2c3e50;
+            text-align: center;
+            padding: 20px 0;
+            border-bottom: 2px solid #3498db;
+            font-size: 2.5rem;
+            margin-bottom: 30px;
+        }
+
+        h2 {
+            color: #3498db;
+            padding: 10px 0;
+            font-size: 1.8rem;
+            border-left: 5px solid #3498db;
+            padding-left: 15px;
+            background-color: #ecf0f1;
+            border-radius: 0 5px 5px 0;
+        }
+
+        /* Image Styles */
+        img {
+            display: block;
+            max-width: 100%;
+            height: auto;
+            margin: 20px auto;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        /* Paragraph Styles */
+        p {
+            text-align: justify;
+            margin-bottom: 20px;
+            padding: 0 15px;
+        }
+
+        /* List Styles */
+        ul, ol {
+            margin-left: 20px;
+            margin-bottom: 20px;
+        }
+
+        ul li, ol li {
+            padding: 5px 0;
+        }
+
+        ol {
+            counter-reset: list-counter;
+            list-style: none;
+        }
+
+        ol li {
+            counter-increment: list-counter;
+            position: relative;
+            padding-left: 35px;
+            margin-bottom: 10px;
+        }
+
+        ol li::before {
+            content: counter(list-counter);
+            background-color: #3498db;
+            color: white;
+            font-weight: bold;
+            position: absolute;
+            left: 0;
+            width: 25px;
+            height: 25px;
+            border-radius: 50%;
+            text-align: center;
+            line-height: 25px;
+        }
+
+        ul {
+            list-style: none;
+        }
+
+        ul li {
+            position: relative;
+            padding-left: 25px;
+        }
+
+        ul li::before {
+            content: "•";
+            color: #3498db;
+            font-weight: bold;
+            font-size: 1.5em;
+            position: absolute;
+            left: 0;
+        }
+
+        /* Emphasis Styles */
+        i {
+            color: #2980b9;
+            font-style: italic;
+        }
+
+        b {
+            color: #2c3e50;
+            font-weight: bold;
+        }
+
+        u {
+            text-decoration: none;
+            border-bottom: 1px dotted #3498db;
+        }
+
+        /* Daily Section Styles */
+        .day-section {
+            background-color: white;
+            border-radius: 8px;
+            padding: 20px;
+            margin-bottom: 30px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease;
+        }
+
+        .day-section:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+        }
+
+        /* Footer Style */
+        footer {
+            text-align: center;
+            margin-top: 50px;
+            padding: 20px;
+            border-top: 1px solid #e0e0e0;
+            color: #7f8c8d;
+            font-size: 0.9rem;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Documentation of FABLAB</h1>
+        <img src="fablab logo.jpg" alt="FABLAB Image">
+        
+    </header>
+
+    <main>
+        <div class="day-section">
+            <h2>DAY-1</h2>
+            <p>It was tuesday 25 March, my first working day <i>DIGITAL FABLAB</i>. On that day our first module started i.e <b>Web Development</b>. Web development is divided into 3 parts that are:</p>
+            <ol>
+                <li><i>HTML</i></li>
+                <li><i>CSS</i></li>
+                <li><i>JavaScript</i></li>
+            </ol>
+            <p>So our first topic HTML got started. <u>Amruta Mam</u> was our mentor for teaching HTML. Mam started teaching from the basics and told us about the fundamental tags to use. Then mam teaches us about the HTML layout by using "shift+!". Also mam tells about some tags that are paragraph tag "p", a tag for adding link, h1, h2, h3, h4, h5, h6 used for words size, comment tags and all other basic tags and concluded the day-1 class.</p>
+        </div>
+
+        <div class="day-section">
+            <h2>DAY-2</h2>
+            <p>On 26 of March, my FABLAB's day-2, <i>day-2 of Digital Fablab</i> was all about tags that Amruta mam teaches us that are:</p>
+            <ol>
+                <li>img tag</li>
+                <li>center tag</li>
+                <li>bold b tag</li>
+                <li>italic i tag</li>
+                <li>underline u tag</li>
+                <li>big tag</li>
+                <li>small tag</li>
+                <li>sub tag</li>
+                <li>sup tag</li>
+                <li>pre tag</li>
+                <li>header tag</li>
+                <li>main tag</li>
+                <li>footer tag</li>
+                <li>section tag</li>
+                <li>article tag</li>
+                <li>aside tag</li>
+                <li>div tag</li>
+                <li>span tag</li>
+            </ol>
+            <p>This is what I learned on FABLAB day-2.</p>
+        </div>
+
+        <div class="day-section">
+            <h2>DAY-3</h2>
+            <p>On 27 March, day-3 of Digital FABLAB, we focused on practical applications of HTML tags we learned previously. We had hands-on practice with various tags, with special emphasis on the img tag. We learned how to:</p>
+            <ul>
+                <li>Insert images using the img tag with src, alt, width, and height attributes</li>
+                <li>Create responsive images</li>
+                <li>Position images within the page</li>
+                <li>Create image galleries</li>
+                <li>Use figure and figcaption tags</li>
+            </ul>
+            <p>We also practiced creating forms with input fields, select dropdowns, and buttons. The practical session helped reinforce our understanding of HTML structure and elements.</p>
+        </div>
+
+        <div class="day-section">
+            <h2>DAY-4</h2>
+            <p>On 28 March, day-4 of Digital FABLAB, we were introduced to the basics of CSS (Cascading Style Sheets). Our mentor explained the three ways to include CSS in HTML:</p>
+            <ol>
+                <li>Inline CSS - using the style attribute</li>
+                <li>Internal CSS - using the style tag in the head section</li>
+                <li>External CSS - linking an external .css file</li>
+            </ol>
+            <p>We learned about CSS selectors, properties, and values. The basic CSS properties covered included:</p>
+            <ul>
+                <li>color - for text color</li>
+                <li>background-color - for element backgrounds</li>
+                <li>font-family - for text fonts</li>
+                <li>font-size - for text size</li>
+                <li>margin - for space outside elements</li>
+                <li>padding - for space inside elements</li>
+                <li>border - for element borders</li>
+            </ul>
+            <p>We created our first styled webpage applying these concepts.</p>
+        </div>
+
+        <div class="day-section">
+            <h2>DAY-5</h2>
+            <p>On 29 March, day-5 of Digital FABLAB, we continued our CSS learning and were introduced to JavaScript. In the first half, we explored advanced CSS concepts:</p>
+            <ul>
+                <li>CSS Box Model (margin, border, padding, content)</li>
+                <li>Flexbox layout</li>
+                <li>CSS Grid basics</li>
+                <li>Responsive design with media queries</li>
+                <li>CSS transitions and animations</li>
+            </ul>
+            <p>In the second half, we had our first JavaScript tutorial. We learned:</p>
+            <ol>
+                <li>How to include JavaScript in HTML (inline, internal with script tags, external .js files)</li>
+                <li>Basic JavaScript syntax</li>
+                <li>Variables and data types</li>
+                <li>Operators</li>
+                <li>Conditional statements (if-else)</li>
+                <li>Simple DOM manipulation to change HTML content</li>
+            </ol>
+            <p>We created a simple interactive webpage that responded to user clicks, which helped us understand how HTML, CSS, and JavaScript work together in web development.</p>
+        </div>
+    </main>
+
+    <footer>
+        &copy; 2025 FABLAB Documentation - Created during Web Development Training
+    </footer>
+</body>
+</html>
